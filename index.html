@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datalink - Télécharger</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    .app-card {
+      background: #fff;
+      margin-top: 30px;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      animation: fadeIn 1s ease;
+      max-width: 400px;
+      width: 100%;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .app-logo {
+      width: 100px;
+      height: 100px;
+      background: #e0e0e0;
+      color: #4caf50;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      font-size: 36px;
+      margin: 0 auto 20px;
+    }
+    .app-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .app-category {
+      color: #777;
+      margin-bottom: 10px;
+    }
+    .stars {
+      color: #ffc107;
+      margin-bottom: 10px;
+    }
+    .app-info {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .download-btn {
+      display: inline-block;
+      background: #4caf50;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .download-btn:hover {
+      background: #43a047;
+      transform: scale(1.05);
+    }
+    .description {
+      margin-top: 20px;
+      font-size: 15px;
+      text-align: left;
+    }
+    .screenshots {
+      margin-top: 30px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .screenshots img {
+      width: 100px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+<div class="app-card">
+  <div class="app-logo">DL</div>
+  <div class="app-title">Datalink</div>
+  <div class="app-category">Outils</div>
+  <div class="stars">★★★★★</div>
+  <div class="app-info">10 000+ téléchargements · 15 Mo · Mise à jour : Avril 2025</div>
+
+  <a href="base.apk" class="download-btn" download>Télécharger l'APK</a>
+
+  <div class="description">
+    <h3>Description</h3>
+    <p>Datalink est votre passerelle rapide et fiable pour tous vos besoins en connectivité. Accédez à des forfaits internet, services et fonctionnalités en quelques clics !</p>
+    <p>Interface intuitive, mises à jour fréquentes et assistance rapide pour une expérience parfaite.</p>
+  </div>
+
+  <div class="screenshots">
+    <img src="assets/screenshot1.jpg" alt="Capture 1">
+    <img src="assets/screenshot2.jpg" alt="Capture 2">
+  </div>
+</div>
+
+<footer>
+  © 2025 Datalink. Tous droits réservés.
+</footer>
+
+</body>
+</html>
